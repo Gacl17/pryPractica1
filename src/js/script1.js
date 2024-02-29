@@ -38,19 +38,18 @@ x = 45;
 console.log(x);*/
 
 //var tiene ambito de funcion
-function ejemploAmbitoVar(){
-    if (true){
-        var x= 23;
-    }
-    console.log(x);
+function ejemploAmbitoVar() {
+  if (true) {
+    var x = 23;
+  }
+  console.log(x);
 }
 ejemploAmbitoVar();
 
-function ejemploAmbitoVar(){
-    if (true){
-        let x= 23;
-    }
-    console.log(x);
+function ejemploAmbitoVar() {
+  if (true) {
+    let x = 23;
+  }
+  console.log(x);
 }
 ejemploAmbitoVar();
-
